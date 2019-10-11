@@ -13,9 +13,6 @@ ods_print_query(dataset, geography = NULL, ...)
 
 \item{...}{Arbitrary filters requiring valid scheme = value structure.}
 
-\item{start_date}{\code{string}. Filter data points after this date.}
-
-\item{end_date}{\code{string}. Filter data points before this date.}
 }
 \value{
 \code{string}. A valid SPARQL query.
